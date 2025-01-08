@@ -39,7 +39,7 @@ function AddTodo() {
   return (
     <div>
 
-      <button className="btn btn-success m-5" onClick={handleShow}>
+      <button className="btn btn-success m-3" onClick={handleShow}>
         Add ToDo
       </button>
       <Modal show={show} onHide={handleClose}>
