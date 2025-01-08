@@ -33,7 +33,7 @@ function App() {
 
   const todayDate = getTodayDate();
 
-  // Separate lists for todos created, updated, or due today
+
   const createdToday = todos.filter((todo) => todo.created_at.split("T")[0] === todayDate);
   const updatedToday = todos.filter((todo) => todo.updated_at.split("T")[0] === todayDate);
   const dueToday = todos.filter((todo) => todo.due_date === todayDate);
